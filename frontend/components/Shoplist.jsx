@@ -1,14 +1,9 @@
-import Link from "next/link";
-import React from "react";
+import React from 'react'
 
-const Stores = () => {
+const Shoplist = () => {
   return (
     <>
-      <div className="py-6 pl-16 font-sans">
-        <p className="font-semibold text-xl">Shop by Stores</p>
-        <p>Explore lists of Stores</p>
-      </div>
-      <div className="flex flex-row justify-evenly flex-wrap">
+      <div className="flex flex-row justify-evenly flex-wrap mt-10">
         {[
           {
             title: "Mohan Meat Center",
@@ -54,13 +49,9 @@ const Stores = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        
-        <Link href="/stores">
-        <button className="btn btn-xs mb-10 bg-cyan-400 sm:btn-sm md:btn-md lg:btn-lg">More Shops ➡️</button>
-        </Link>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Stores;
+export default Shoplist

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 
 import logo from "../public/favicon.png"
@@ -27,7 +28,9 @@ const Navbar = () => {
           />
         </div>
         <div className="flex ml-4 space-x-2">
-          <button className="btn bg-cyan-400">Store</button>
+          <Link href="/stores">
+          <button className="btn bg-cyan-400">Shops</button>
+          </Link>
           <button className="btn bg-cyan-400">Categories</button>
           <button className="btn bg-cyan-400">Cart</button>
           <button className="btn bg-cyan-400 mr-4">Login</button>
