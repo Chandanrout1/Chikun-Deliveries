@@ -38,9 +38,9 @@ const Stores = () => {
             altText: "Haider Chicken Center"
           },
         ].map((store, index) => (
-          <div key={index} className="card bg-slate-200 w-96 shadow-xl p-2 ml-6 mb-10">
+          <div key={index} className="bg-slate-200 w-96 shadow-xl p-8 ml-6 mb-10 rounded-md">
             <figure>
-              <img className="w-80 h-80" src={store.imageUrl} alt={store.altText} />
+              <img className="w-80 h-80 rounded-md" src={store.imageUrl} alt={store.altText} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{store.title}</h2>
@@ -56,7 +56,7 @@ const Stores = () => {
       <div className="flex justify-center">
         
         <Link href="/stores">
-        <button className="btn btn-xs mb-10 bg-cyan-400 sm:btn-sm md:btn-md lg:btn-lg">More Shops ➡️</button>
+        <button className="btn btn-xs mb-10 bg-cyan-400 sm:btn-sm md:btn-md lg:btn-lg">More Shops</button>
         </Link>
       </div>
     </>

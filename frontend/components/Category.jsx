@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link";
 
 const Category = () => {
   return (
@@ -7,7 +8,7 @@ const Category = () => {
         <p className="font-semibold text-xl">Shop by categories</p>
         <p>Freshest meats and much more!</p>
       </div>
-      <div className="flex flex-row">
+      <div className="flex flex-row ">
         <div className="py-1 pl-10 w-60 h-60">
           <img
             src="https://thumbs.dreamstime.com/b/small-pieces-raw-chicken-meat-ceramic-plate-isolated-white-background-top-view-fillet-290268447.jpg"
@@ -27,7 +28,7 @@ const Category = () => {
         <div className="py-1 pl-10 w-60 h-60">
           <img
             src="https://goodfinds.ph/wp-content/uploads/2022/08/Seafood__0002_SalmonSlice_a.jpg"
-            alt="Chicken image"
+            alt="Fish image"
             className="rounded-3xl w-44 h-44"
           />
           <p className="font-sans flex justify-center font-medium">Fish</p>

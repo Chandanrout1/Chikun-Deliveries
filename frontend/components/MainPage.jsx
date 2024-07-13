@@ -7,7 +7,6 @@ const MainPage = () => {
     <>
       <Category/>
       <Stores/>
-      
     </>
   );
 };
